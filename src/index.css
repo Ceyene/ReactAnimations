@@ -1,19 +1,29 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
 
 .Button {
-  border: 1px solid #521751;
-  font: inherit;
-  padding: 8px;
-  background-color: #521751;
-  color: white;
-  cursor: pointer;
+	border: 1px solid #521751;
+	font: inherit;
+	padding: 8px;
+	background-color: #521751;
+	color: white;
+	cursor: pointer;
+}
+
+.ToggleButton {
+	border: 3px solid #521751;
+	font: inherit;
+	padding: 8px;
+	margin: 0.5rem;
+	background-color: #eed3ed;
+	color: #521751;
+	cursor: pointer;
 }
 
 .Button:hover,
 .Button:active {
-  background-color: #fa923f;
+	background-color: #fa923f;
 }
