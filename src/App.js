@@ -35,7 +35,7 @@ class App extends Component {
 				{this.state.showBlock ? (
 					<div
 						style={{
-							backgroundColor: 'red',
+							backgroundColor: '#eed3ed',
 							width: 100,
 							height: 100,
 							margin: '0.5rem auto',
